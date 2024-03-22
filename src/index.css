@@ -1,0 +1,32 @@
+body{
+    padding: 20px;
+}
+.img-pokemon{
+    width: 100px;
+    height: 100px;   
+
+}
+.pokemons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.Container-todo-description{
+    cursor: pointer;
+
+    
+}
+.Container-todo-description:hover{
+   background-color: rgb(246, 207, 91) ;
+
+}
+.doneTodo{
+    background-color: rgb(61, 248, 180) !important;
+}
+a{
+    margin: 10px;
+}
+.active{
+    color: rgb(217, 164, 41) !important;
+}
